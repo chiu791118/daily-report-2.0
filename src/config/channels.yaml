@@ -1,0 +1,77 @@
+# YouTube Channels to Track
+# Format: channel_id or custom URL handle
+
+channels:
+  # 美股財經
+  us_stocks:
+    - name: "Meet Kevin"
+      channel_id: "UCUvvj5lwue7PspotMDjk5UA"
+      focus: ["stocks", "economy", "real estate"]
+
+    - name: "Joseph Carlson"
+      channel_id: "UCbta5XKhfDR0PXNF9Qjodvg"
+      focus: ["dividend investing", "portfolio"]
+
+  # 總體經濟
+  macro_economics:
+    - name: "Patrick Boyle"
+      channel_id: "UCASM0cgfkJxQ1ICmRilfHLw"
+      focus: ["finance", "markets", "hedge funds"]
+
+    - name: "Ben Felix"
+      channel_id: "UCDXTQ8nWmx_EhZ2v-kp7QxA"
+      focus: ["rational investing", "personal finance"]
+
+    - name: "MacroVoices"
+      channel_id: "UCYMmMczbkvgBWxoDnMTjXPg"
+      focus: ["macro", "commodities", "investing"]
+
+    - name: "The Macro Compass"
+      channel_id: "UCOHe_VhM3v6V9L3zt_rTLLQ"
+      focus: ["macro analysis", "global markets"]
+
+  # 地緣政治
+  geopolitics:
+    - name: "Zeihan on Geopolitics"
+      channel_id: "UCfBwVqSZ7pLj2CRBP8C2OGg"
+      focus: ["geopolitics", "demographics", "trade"]
+
+    - name: "CaspianReport"
+      channel_id: "UCwnKziETDbHJtx78nIkfYug"
+      focus: ["geopolitics", "international relations"]
+
+  # 科技/AI
+  tech_ai:
+    - name: "AI Explained"
+      channel_id: "UCNJ1Ymd5yFuUPtn21xtRbbw"
+      focus: ["AI", "machine learning", "tech analysis"]
+
+    - name: "Matt Wolfe"
+      channel_id: "UCJIfeSCssxSC_Dhc5s7woww"
+      focus: ["AI tools", "tech news"]
+
+  # 商業分析
+  business_analysis:
+    - name: "PolyMatter"
+      channel_id: "UCgNg3vwj3xt7QOrcIDaHdFg"
+      focus: ["business", "economics", "China"]
+
+    - name: "Company Man"
+      channel_id: "UCQMyhrt92_8XM0KgZH6VnRg"
+      focus: ["company analysis", "business history"]
+
+    - name: "The Plain Bagel"
+      channel_id: "UCFCEuCsyWP0YkP3CZ3Mr01Q"
+      focus: ["investing", "finance education"]
+
+  # 訪談
+  interviews:
+    - name: "The Diary of a CEO"
+      channel_id: "UCGq-a57w-aPwyi3pW7XLiHw"
+      focus: ["interviews", "business", "entrepreneurship"]
+
+  # 財經媒體
+  financial_media:
+    - name: "Financial Times"
+      channel_id: "UCsSlEmTHYM4rVAP6Eg_dpHA"
+      focus: ["news", "markets", "analysis"]

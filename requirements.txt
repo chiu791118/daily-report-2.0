@@ -1,0 +1,26 @@
+# Core dependencies
+python-dotenv
+pyyaml
+
+# News collection
+feedparser
+requests
+
+# YouTube
+google-api-python-client
+youtube-transcript-api
+
+# Stock data
+yfinance
+pandas
+numpy
+
+# AI - Gemini
+google-genai
+
+# Notion (Phase 2)
+notion-client
+
+# Utilities
+python-dateutil
+pytz

@@ -1,0 +1,526 @@
+# 重要實體追蹤清單（上市 + 非上市公司）
+# 用於週六產業報告的實體識別
+
+entities:
+
+  # === AI ===
+  ai:
+    listed:
+      - name: "NVIDIA"
+        ticker: "NVDA"
+        aliases: ["Nvidia", "黃仁勳", "Jensen Huang", "H100", "H200", "B100", "Blackwell"]
+      - name: "Microsoft"
+        ticker: "MSFT"
+        aliases: ["微軟", "Satya Nadella", "Azure", "Copilot"]
+      - name: "Google/Alphabet"
+        ticker: "GOOGL"
+        aliases: ["Google", "Alphabet", "DeepMind", "Gemini", "Sundar Pichai"]
+      - name: "Meta"
+        ticker: "META"
+        aliases: ["Facebook", "LLaMA", "Llama", "Zuckerberg", "祖克柏", "Instagram", "WhatsApp"]
+      - name: "Amazon"
+        ticker: "AMZN"
+        aliases: ["亞馬遜", "AWS", "Bedrock", "Andy Jassy"]
+      - name: "AMD"
+        ticker: "AMD"
+        aliases: ["超微", "Lisa Su", "蘇姿丰", "MI300"]
+      - name: "Salesforce"
+        ticker: "CRM"
+        aliases: ["Einstein", "Marc Benioff"]
+      - name: "ServiceNow"
+        ticker: "NOW"
+        aliases: []
+      - name: "Palantir"
+        ticker: "PLTR"
+        aliases: ["AIP"]
+
+    unlisted:
+      - name: "OpenAI"
+        aliases: ["GPT", "ChatGPT", "GPT-4", "GPT-5", "Sam Altman", "o1", "o3", "Sora"]
+      - name: "Anthropic"
+        aliases: ["Claude", "Dario Amodei", "Sonnet", "Opus", "Haiku"]
+      - name: "xAI"
+        aliases: ["Grok", "Elon Musk AI"]
+      - name: "Mistral AI"
+        aliases: ["Mistral", "Arthur Mensch"]
+      - name: "Cohere"
+        aliases: ["Aidan Gomez"]
+      - name: "Perplexity"
+        aliases: ["Perplexity AI"]
+      - name: "Stability AI"
+        aliases: ["Stable Diffusion", "SDXL"]
+      - name: "Midjourney"
+        aliases: []
+      - name: "Hugging Face"
+        aliases: ["HuggingFace", "HF"]
+      - name: "Runway"
+        aliases: ["Runway ML", "Gen-2", "Gen-3"]
+      - name: "Character.AI"
+        aliases: ["Character AI"]
+      - name: "Inflection AI"
+        aliases: ["Inflection", "Pi"]
+      - name: "Adept"
+        aliases: ["Adept AI"]
+      - name: "Databricks"
+        aliases: ["DBRX", "Mosaic ML"]
+      - name: "Scale AI"
+        aliases: ["Scale"]
+      - name: "Weights & Biases"
+        aliases: ["W&B", "wandb"]
+
+  # === 半導體 ===
+  semiconductor:
+    listed:
+      - name: "TSMC"
+        ticker: "TSM"
+        aliases: ["台積電", "張忠謀", "Morris Chang", "魏哲家", "C.C. Wei", "N3", "N2", "CoWoS"]
+      - name: "ASML"
+        ticker: "ASML"
+        aliases: ["艾司摩爾", "EUV", "High-NA"]
+      - name: "Intel"
+        ticker: "INTC"
+        aliases: ["英特爾", "Pat Gelsinger", "Intel Foundry"]
+      - name: "Broadcom"
+        ticker: "AVGO"
+        aliases: ["博通", "Hock Tan"]
+      - name: "Qualcomm"
+        ticker: "QCOM"
+        aliases: ["高通", "Snapdragon"]
+      - name: "Micron"
+        ticker: "MU"
+        aliases: ["美光", "HBM"]
+      - name: "Applied Materials"
+        ticker: "AMAT"
+        aliases: ["應材"]
+      - name: "Lam Research"
+        ticker: "LRCX"
+        aliases: ["科林研發"]
+      - name: "KLA"
+        ticker: "KLAC"
+        aliases: []
+      - name: "Marvell"
+        ticker: "MRVL"
+        aliases: []
+      - name: "ON Semiconductor"
+        ticker: "ON"
+        aliases: ["安森美"]
+      - name: "SK Hynix"
+        ticker: "000660.KS"
+        aliases: ["海力士", "SK海力士"]
+      - name: "Samsung Electronics"
+        ticker: "005930.KS"
+        aliases: ["三星", "Samsung"]
+
+    unlisted:
+      - name: "Cerebras"
+        aliases: ["Cerebras Systems", "WSE"]
+      - name: "Groq"
+        aliases: ["LPU"]
+      - name: "SambaNova"
+        aliases: ["SambaNova Systems"]
+      - name: "Graphcore"
+        aliases: ["IPU"]
+      - name: "Tenstorrent"
+        aliases: ["Jim Keller"]
+      - name: "d-Matrix"
+        aliases: []
+
+  # === 醫療/生技 ===
+  healthcare:
+    listed:
+      - name: "Eli Lilly"
+        ticker: "LLY"
+        aliases: ["禮來", "Mounjaro", "Zepbound", "Tirzepatide", "Orforglipron"]
+      - name: "Novo Nordisk"
+        ticker: "NVO"
+        aliases: ["諾和諾德", "Ozempic", "Wegovy", "Semaglutide", "CagriSema"]
+      - name: "Moderna"
+        ticker: "MRNA"
+        aliases: ["莫德納", "mRNA"]
+      - name: "Pfizer"
+        ticker: "PFE"
+        aliases: ["輝瑞"]
+      - name: "Johnson & Johnson"
+        ticker: "JNJ"
+        aliases: ["J&J", "嬌生"]
+      - name: "AbbVie"
+        ticker: "ABBV"
+        aliases: ["艾伯維", "Humira", "Skyrizi", "Rinvoq"]
+      - name: "Merck"
+        ticker: "MRK"
+        aliases: ["默克", "默沙東", "Keytruda"]
+      - name: "AstraZeneca"
+        ticker: "AZN"
+        aliases: ["阿斯特捷利康", "AZ"]
+      - name: "Roche"
+        ticker: "RHHBY"
+        aliases: ["羅氏"]
+      - name: "Bristol-Myers Squibb"
+        ticker: "BMY"
+        aliases: ["BMS", "必治妥施貴寶"]
+      - name: "Amgen"
+        ticker: "AMGN"
+        aliases: ["安進", "MariTide"]
+      - name: "Gilead"
+        ticker: "GILD"
+        aliases: ["吉利德"]
+      - name: "Regeneron"
+        ticker: "REGN"
+        aliases: ["再生元"]
+      - name: "Vertex"
+        ticker: "VRTX"
+        aliases: ["福泰"]
+      - name: "BioNTech"
+        ticker: "BNTX"
+        aliases: ["BNT"]
+      - name: "Intuitive Surgical"
+        ticker: "ISRG"
+        aliases: ["直覺外科", "Da Vinci"]
+      - name: "UnitedHealth"
+        ticker: "UNH"
+        aliases: ["聯合健康"]
+      - name: "Thermo Fisher"
+        ticker: "TMO"
+        aliases: ["賽默飛世爾"]
+
+    unlisted:
+      - name: "Recursion Pharmaceuticals"
+        aliases: ["Recursion"]
+      - name: "Insitro"
+        aliases: []
+      - name: "Tempus"
+        aliases: []
+      - name: "Isomorphic Labs"
+        aliases: ["DeepMind 生技"]
+
+  # === 電動車/新能源 ===
+  ev_energy:
+    listed:
+      - name: "Tesla"
+        ticker: "TSLA"
+        aliases: ["特斯拉", "Elon Musk", "FSD", "Cybertruck", "Model 3", "Model Y", "Optimus"]
+      - name: "BYD"
+        ticker: "BYDDY"
+        aliases: ["比亞迪", "王傳福"]
+      - name: "Rivian"
+        ticker: "RIVN"
+        aliases: []
+      - name: "Lucid"
+        ticker: "LCID"
+        aliases: ["Lucid Motors"]
+      - name: "NIO"
+        ticker: "NIO"
+        aliases: ["蔚來"]
+      - name: "XPeng"
+        ticker: "XPEV"
+        aliases: ["小鵬"]
+      - name: "Li Auto"
+        ticker: "LI"
+        aliases: ["理想汽車", "理想"]
+      - name: "ChargePoint"
+        ticker: "CHPT"
+        aliases: []
+      - name: "NextEra Energy"
+        ticker: "NEE"
+        aliases: []
+      - name: "Enphase"
+        ticker: "ENPH"
+        aliases: []
+      - name: "First Solar"
+        ticker: "FSLR"
+        aliases: []
+
+    unlisted:
+      - name: "SpaceX"
+        aliases: ["Starlink", "Starship", "Falcon"]
+      - name: "Northvolt"
+        aliases: []
+      - name: "CATL"
+        aliases: ["寧德時代", "Contemporary Amperex"]
+      - name: "Xiaomi EV"
+        aliases: ["小米汽車", "SU7"]
+      - name: "Huawei Auto"
+        aliases: ["華為汽車", "AITO", "問界"]
+
+  # === 消費/電商 ===
+  consumer:
+    listed:
+      - name: "Amazon"
+        ticker: "AMZN"
+        aliases: ["亞馬遜", "Prime", "Whole Foods"]
+      - name: "Alibaba"
+        ticker: "BABA"
+        aliases: ["阿里巴巴", "淘寶", "天貓", "Taobao", "Tmall", "張勇"]
+      - name: "JD.com"
+        ticker: "JD"
+        aliases: ["京東"]
+      - name: "PDD Holdings"
+        ticker: "PDD"
+        aliases: ["拼多多", "Pinduoduo", "Temu"]
+      - name: "MercadoLibre"
+        ticker: "MELI"
+        aliases: []
+      - name: "Costco"
+        ticker: "COST"
+        aliases: ["好市多"]
+      - name: "Walmart"
+        ticker: "WMT"
+        aliases: ["沃爾瑪"]
+      - name: "Nike"
+        ticker: "NKE"
+        aliases: ["耐吉", "耐克"]
+      - name: "Starbucks"
+        ticker: "SBUX"
+        aliases: ["星巴克"]
+      - name: "McDonald's"
+        ticker: "MCD"
+        aliases: ["麥當勞"]
+      - name: "Coca-Cola"
+        ticker: "KO"
+        aliases: ["可口可樂"]
+      - name: "PepsiCo"
+        ticker: "PEP"
+        aliases: ["百事"]
+      - name: "Procter & Gamble"
+        ticker: "PG"
+        aliases: ["P&G", "寶僑"]
+
+    unlisted:
+      - name: "Shein"
+        aliases: ["希音", "SHEIN"]
+      - name: "ByteDance"
+        aliases: ["字節跳動", "TikTok", "抖音", "張一鳴"]
+      - name: "Stripe"
+        aliases: []
+      - name: "Klarna"
+        aliases: []
+      - name: "Instacart"
+        aliases: []
+
+  # === 航空/旅遊 ===
+  travel:
+    listed:
+      - name: "Delta"
+        ticker: "DAL"
+        aliases: ["達美航空"]
+      - name: "United Airlines"
+        ticker: "UAL"
+        aliases: ["聯合航空"]
+      - name: "American Airlines"
+        ticker: "AAL"
+        aliases: ["美國航空"]
+      - name: "Southwest"
+        ticker: "LUV"
+        aliases: ["西南航空"]
+      - name: "Boeing"
+        ticker: "BA"
+        aliases: ["波音"]
+      - name: "Airbus"
+        ticker: "EADSY"
+        aliases: ["空中巴士"]
+      - name: "Booking Holdings"
+        ticker: "BKNG"
+        aliases: ["Booking.com", "Priceline"]
+      - name: "Airbnb"
+        ticker: "ABNB"
+        aliases: []
+      - name: "Expedia"
+        ticker: "EXPE"
+        aliases: []
+      - name: "Marriott"
+        ticker: "MAR"
+        aliases: ["萬豪"]
+      - name: "Hilton"
+        ticker: "HLT"
+        aliases: ["希爾頓"]
+      - name: "Carnival"
+        ticker: "CCL"
+        aliases: ["嘉年華郵輪"]
+      - name: "Royal Caribbean"
+        ticker: "RCL"
+        aliases: ["皇家加勒比"]
+
+    unlisted: []
+
+  # === 金融 ===
+  finance:
+    listed:
+      - name: "JPMorgan Chase"
+        ticker: "JPM"
+        aliases: ["摩根大通", "JP Morgan", "Jamie Dimon"]
+      - name: "Goldman Sachs"
+        ticker: "GS"
+        aliases: ["高盛", "David Solomon"]
+      - name: "Morgan Stanley"
+        ticker: "MS"
+        aliases: ["摩根士丹利"]
+      - name: "Bank of America"
+        ticker: "BAC"
+        aliases: ["美國銀行", "BofA"]
+      - name: "Citigroup"
+        ticker: "C"
+        aliases: ["花旗"]
+      - name: "Wells Fargo"
+        ticker: "WFC"
+        aliases: ["富國銀行"]
+      - name: "BlackRock"
+        ticker: "BLK"
+        aliases: ["貝萊德", "Larry Fink"]
+      - name: "Visa"
+        ticker: "V"
+        aliases: []
+      - name: "Mastercard"
+        ticker: "MA"
+        aliases: ["萬事達"]
+      - name: "PayPal"
+        ticker: "PYPL"
+        aliases: []
+      - name: "Block"
+        ticker: "SQ"
+        aliases: ["Square", "Cash App"]
+      - name: "Coinbase"
+        ticker: "COIN"
+        aliases: []
+
+    unlisted:
+      - name: "Revolut"
+        aliases: []
+      - name: "Chime"
+        aliases: []
+      - name: "Plaid"
+        aliases: []
+      - name: "Circle"
+        aliases: ["USDC"]
+
+  # === 能源 ===
+  energy:
+    listed:
+      - name: "ExxonMobil"
+        ticker: "XOM"
+        aliases: ["埃克森美孚", "Exxon"]
+      - name: "Chevron"
+        ticker: "CVX"
+        aliases: ["雪佛龍"]
+      - name: "Shell"
+        ticker: "SHEL"
+        aliases: ["殼牌"]
+      - name: "BP"
+        ticker: "BP"
+        aliases: ["英國石油"]
+      - name: "ConocoPhillips"
+        ticker: "COP"
+        aliases: []
+      - name: "Schlumberger"
+        ticker: "SLB"
+        aliases: []
+      - name: "Cheniere Energy"
+        ticker: "LNG"
+        aliases: ["LNG"]
+
+    unlisted:
+      - name: "Saudi Aramco"
+        aliases: ["沙特阿美", "Aramco"]
+      - name: "ADNOC"
+        aliases: ["阿布達比國家石油"]
+
+  # === 工業/製造 ===
+  industrial:
+    listed:
+      - name: "Caterpillar"
+        ticker: "CAT"
+        aliases: ["開拓重工"]
+      - name: "John Deere"
+        ticker: "DE"
+        aliases: ["Deere"]
+      - name: "Honeywell"
+        ticker: "HON"
+        aliases: ["漢威聯合"]
+      - name: "3M"
+        ticker: "MMM"
+        aliases: []
+      - name: "General Electric"
+        ticker: "GE"
+        aliases: ["奇異", "GE Aerospace"]
+      - name: "Siemens"
+        ticker: "SIEGY"
+        aliases: ["西門子"]
+      - name: "ABB"
+        ticker: "ABB"
+        aliases: []
+      - name: "Union Pacific"
+        ticker: "UNP"
+        aliases: ["聯合太平洋"]
+      - name: "UPS"
+        ticker: "UPS"
+        aliases: ["聯合包裹"]
+      - name: "FedEx"
+        ticker: "FDX"
+        aliases: ["聯邦快遞"]
+
+    unlisted: []
+
+
+# 重要人物（跨公司追蹤）
+key_people:
+  - name: "Elon Musk"
+    entities: ["Tesla", "SpaceX", "xAI", "X/Twitter"]
+    aliases: ["馬斯克"]
+  - name: "Sam Altman"
+    entities: ["OpenAI"]
+    aliases: []
+  - name: "Jensen Huang"
+    entities: ["NVIDIA"]
+    aliases: ["黃仁勳"]
+  - name: "Satya Nadella"
+    entities: ["Microsoft"]
+    aliases: ["納德拉"]
+  - name: "Sundar Pichai"
+    entities: ["Google/Alphabet"]
+    aliases: []
+  - name: "Mark Zuckerberg"
+    entities: ["Meta"]
+    aliases: ["祖克柏", "小乍"]
+  - name: "Tim Cook"
+    entities: ["Apple"]
+    aliases: ["庫克"]
+  - name: "張忠謀"
+    entities: ["TSMC"]
+    aliases: ["Morris Chang"]
+  - name: "魏哲家"
+    entities: ["TSMC"]
+    aliases: ["C.C. Wei"]
+  - name: "Lisa Su"
+    entities: ["AMD"]
+    aliases: ["蘇姿丰"]
+  - name: "Pat Gelsinger"
+    entities: ["Intel"]
+    aliases: ["乩星"]
+  - name: "Jamie Dimon"
+    entities: ["JPMorgan Chase"]
+    aliases: ["戴蒙"]
+  - name: "Warren Buffett"
+    entities: ["Berkshire Hathaway"]
+    aliases: ["巴菲特"]
+  - name: "Dario Amodei"
+    entities: ["Anthropic"]
+    aliases: []
+
+
+# 重要機構/監管單位
+institutions:
+  - name: "Federal Reserve"
+    aliases: ["Fed", "聯準會", "美聯儲", "Jerome Powell", "鮑威爾"]
+  - name: "SEC"
+    aliases: ["美國證券交易委員會", "Gary Gensler"]
+  - name: "FDA"
+    aliases: ["美國食品藥物管理局"]
+  - name: "FTC"
+    aliases: ["美國聯邦貿易委員會"]
+  - name: "DOJ"
+    aliases: ["美國司法部", "Department of Justice"]
+  - name: "European Commission"
+    aliases: ["歐盟委員會", "EU"]
+  - name: "PBOC"
+    aliases: ["中國人民銀行", "人行"]
+  - name: "NDRC"
+    aliases: ["國家發改委", "發改委"]

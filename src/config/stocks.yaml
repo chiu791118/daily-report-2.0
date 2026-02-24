@@ -1,0 +1,300 @@
+# Stock Watchlist Configuration
+# 優先批 (Priority) - 重點追蹤
+# 觀察批 (Watch) - 一般觀察
+
+watchlist:
+  # ===== 優先批 (Priority) =====
+  priority:
+    - symbol: "AAPL"
+      name: "Apple Inc."
+      notes: "科技龍頭"
+
+    - symbol: "AMD"
+      name: "Advanced Micro Devices"
+      notes: "CPU/GPU 競爭者"
+
+    - symbol: "ARKK"
+      name: "ARK Innovation ETF"
+      notes: "創新科技 ETF"
+
+    - symbol: "CHWY"
+      name: "Chewy Inc."
+      notes: "寵物電商"
+
+    - symbol: "DXYZ"
+      name: "Destiny Tech100 Inc."
+      notes: "私募科技公司 ETF"
+
+    - symbol: "MCHI"
+      name: "iShares MSCI China ETF"
+      notes: "中國大盤 ETF"
+
+    - symbol: "MRNA"
+      name: "Moderna Inc."
+      notes: "mRNA 疫苗/藥物"
+
+    - symbol: "PYPL"
+      name: "PayPal Holdings"
+      notes: "數位支付"
+
+    - symbol: "TAL"
+      name: "TAL Education Group"
+      notes: "中國教育"
+
+    - symbol: "XYZ"
+      name: "Block Inc. (fka Square)"
+      notes: "金融科技"
+
+  # ===== 觀察批 - 旅遊/消費 =====
+  watch_travel_consumer:
+    - symbol: "AAL"
+      name: "American Airlines"
+      notes: "航空"
+
+    - symbol: "ABNB"
+      name: "Airbnb Inc."
+      notes: "短租平台"
+
+    - symbol: "BKNG"
+      name: "Booking Holdings"
+      notes: "旅遊訂房"
+
+    - symbol: "BUD"
+      name: "Anheuser-Busch InBev"
+      notes: "啤酒龍頭"
+
+    - symbol: "BYND"
+      name: "Beyond Meat"
+      notes: "植物肉"
+
+    - symbol: "CCL"
+      name: "Carnival Corporation"
+      notes: "郵輪"
+
+    - symbol: "EXPE"
+      name: "Expedia Group"
+      notes: "旅遊平台"
+
+    - symbol: "H"
+      name: "Hyatt Hotels"
+      notes: "酒店"
+
+    - symbol: "HLT"
+      name: "Hilton Worldwide"
+      notes: "酒店"
+
+    - symbol: "HTZ"
+      name: "Hertz Global"
+      notes: "租車"
+
+    - symbol: "IHG"
+      name: "InterContinental Hotels"
+      notes: "酒店"
+
+    - symbol: "KO"
+      name: "Coca-Cola Company"
+      notes: "飲料龍頭"
+
+    - symbol: "LULU"
+      name: "Lululemon Athletica"
+      notes: "運動服飾"
+
+    - symbol: "MAR"
+      name: "Marriott International"
+      notes: "酒店"
+
+    - symbol: "NKE"
+      name: "Nike Inc."
+      notes: "運動品牌"
+
+    - symbol: "WMT"
+      name: "Walmart Inc."
+      notes: "零售龍頭"
+
+  # ===== 觀察批 - 娛樂/社交 =====
+  watch_entertainment:
+    - symbol: "EA"
+      name: "Electronic Arts"
+      notes: "遊戲"
+
+    - symbol: "MTCH"
+      name: "Match Group"
+      notes: "交友平台"
+
+    - symbol: "NFLX"
+      name: "Netflix Inc."
+      notes: "串流影音"
+
+    - symbol: "NTDOY"
+      name: "Nintendo Co."
+      notes: "遊戲"
+
+  # ===== 觀察批 - 中國/新興市場 =====
+  watch_china:
+    - symbol: "PDD"
+      name: "PDD Holdings (Pinduoduo)"
+      notes: "中國電商"
+
+    - symbol: "KWEB"
+      name: "KraneShares China Internet ETF"
+      notes: "中國網路 ETF"
+
+  # ===== 觀察批 - 金融/支付 =====
+  watch_fintech:
+    - symbol: "AXP"
+      name: "American Express"
+      notes: "信用卡"
+
+  # ===== 觀察批 - 醫療/生技 =====
+  watch_healthcare:
+    - symbol: "UNH"
+      name: "UnitedHealth Group"
+      notes: "最大健康保險商，Optum 醫療服務"
+
+    - symbol: "LLY"
+      name: "Eli Lilly"
+      notes: "製藥龍頭，GLP-1 減重藥 Mounjaro/Zepbound"
+
+    - symbol: "JNJ"
+      name: "Johnson & Johnson"
+      notes: "多元醫療，製藥+醫療器材"
+
+    - symbol: "PFE"
+      name: "Pfizer Inc."
+      notes: "大型製藥，疫苗+腫瘤藥物"
+
+    - symbol: "ABBV"
+      name: "AbbVie Inc."
+      notes: "免疫學/腫瘤學，Humira/Skyrizi"
+
+    - symbol: "TMO"
+      name: "Thermo Fisher Scientific"
+      notes: "生命科學工具/儀器龍頭"
+
+    - symbol: "ISRG"
+      name: "Intuitive Surgical"
+      notes: "達文西機器人手術系統"
+
+    - symbol: "AZN"
+      name: "AstraZeneca"
+      notes: "腫瘤/罕見疾病製藥"
+
+    - symbol: "GILD"
+      name: "Gilead Sciences"
+      notes: "HIV/C肝/腫瘤藥物"
+
+    - symbol: "VEEV"
+      name: "Veeva Systems"
+      notes: "生技製藥雲端軟體"
+
+  # ===== 觀察批 - 科技巨頭 =====
+  watch_mega_tech:
+    - symbol: "AMZN"
+      name: "Amazon.com Inc."
+      notes: "電商/雲端"
+
+    - symbol: "AVGO"
+      name: "Broadcom Inc."
+      notes: "半導體"
+
+    - symbol: "META"
+      name: "Meta Platforms"
+      notes: "社群媒體 (原 FB)"
+
+    - symbol: "GOOGL"
+      name: "Alphabet Inc."
+      notes: "搜尋/雲端"
+
+    - symbol: "MSFT"
+      name: "Microsoft Corporation"
+      notes: "軟體/雲端"
+
+  # ===== 觀察批 - 半導體 =====
+  watch_semiconductors:
+    - symbol: "INTC"
+      name: "Intel Corporation"
+      notes: "CPU"
+
+    - symbol: "NVDA"
+      name: "NVIDIA Corporation"
+      notes: "GPU/AI 晶片"
+
+    - symbol: "QCOM"
+      name: "Qualcomm Inc."
+      notes: "手機晶片"
+
+    - symbol: "TXN"
+      name: "Texas Instruments"
+      notes: "類比晶片"
+
+    - symbol: "QQQ"
+      name: "Invesco QQQ Trust"
+      notes: "納斯達克 100 ETF"
+
+    - symbol: "SMH"
+      name: "VanEck Semiconductor ETF"
+      notes: "半導體 ETF"
+
+    - symbol: "SOXL"
+      name: "Direxion Semiconductor Bull 3X"
+      notes: "半導體 3 倍槓桿"
+
+    - symbol: "SOXX"
+      name: "iShares Semiconductor ETF"
+      notes: "半導體 ETF"
+
+  # ===== 觀察批 - 能源/原物料 =====
+  watch_energy_commodities:
+    - symbol: "XLE"
+      name: "Energy Select Sector SPDR"
+      notes: "能源 ETF"
+
+    - symbol: "GDX"
+      name: "VanEck Gold Miners ETF"
+      notes: "黃金礦業 ETF"
+
+    - symbol: "JNUG"
+      name: "Direxion Junior Gold Miners Bull 2X"
+      notes: "小型金礦 2 倍槓桿"
+
+# Market Indices (for reference)
+indices:
+  - symbol: "^GSPC"
+    name: "S&P 500"
+    notes: "US large cap benchmark"
+
+  - symbol: "^IXIC"
+    name: "NASDAQ Composite"
+    notes: "Tech-heavy index"
+
+  - symbol: "^DJI"
+    name: "Dow Jones Industrial Average"
+    notes: "Blue chip benchmark"
+
+  - symbol: "^VIX"
+    name: "CBOE Volatility Index"
+    notes: "Fear gauge"
+
+# Key levels to watch (customize as needed)
+key_levels:
+  AAPL:
+    support: [200, 190, 180]
+    resistance: [230, 240, 250]
+
+  NVDA:
+    support: [110, 100, 90]
+    resistance: [130, 140, 150]
+
+  AMD:
+    support: [110, 100, 90]
+    resistance: [140, 150, 160]
+
+# Sectors to monitor
+sectors:
+  - "XLK"   # Technology
+  - "XLF"   # Financials
+  - "XLE"   # Energy
+  - "XLV"   # Healthcare
+  - "XLI"   # Industrials
+  - "XLC"   # Communication Services
+  - "XLY"   # Consumer Discretionary
